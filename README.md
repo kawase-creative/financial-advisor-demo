@@ -24,9 +24,13 @@
 
 ## GitHub Pages
 
-希望アカウント：`kawase-creative`。予定リポジトリ名：`financial-advisor-demo`。新規リポジトリ作成・Pages設定はまだ実行していません。既存リポジトリは変更していません。
+公開サイト：https://kawase-creative.github.io/financial-advisor-demo/
 
-新しいpublicリポジトリのmainブランチに、このフォルダの内容をルートとして登録してください（フォルダ名ごと入れ子にしない）。Settings > Pages > Deploy from a branch > main / (root) を選択すれば公開できます。予定URLは `https://kawase-creative.github.io/financial-advisor-demo/` ですが、公開済みURLではありません。
+リポジトリ：https://github.com/kawase-creative/financial-advisor-demo
+
+新規publicリポジトリのmainブランチ、ルートからPagesで配信しています。HTTPS有効。既存リポジトリは変更していません。`.nojekyll` により静的ファイルをそのまま配信します。
+
+`review/viewport.html` は公開サイトの可変幅確認用補助画面です。サイトナビゲーションには含めず、noindexに設定しています。CSSには更新番号を付けてキャッシュを更新しています。
 
 別のリポジトリ名を使う場合は全HTMLの `og:image` を実際のURLに変更してください。正式公開後はcanonicalとog:urlを実際のURLで各ページに追加してください。
 
@@ -50,4 +54,4 @@ HTML内のheader/footer/dialogをWordPress共通テンプレートに、ペー�
 
 ## 検証状況
 
-`REVIEW.md` を参照してください。実ブラウザの表示・メールアプリ起動確認は未実施です。PC/スマホスクリーンショットも未取得です。
+`REVIEW.md` を参照してください。公開サイトの6ページ・指定7サイズ、メニュー、フォーム入力チェックを確認し、PC・スマホ幅のスクリーンショットを取得しました。メールアプリの起動とiPhone Safari実機は未確認です。
